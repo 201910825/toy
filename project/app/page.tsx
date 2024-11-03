@@ -57,7 +57,7 @@ export default function Home() {
         비대면 알바 모집 플랫폼
       </h2>
       <div className="flex flex-col gap-y-8 md:grid md:grid-flow-row md:grid-cols-6 md:gap-x-6">
-        <GridItem imgWidth="1200px" colSpan="full" icon={LandingImg1} width={1144} height={505} mainText="간편하게 면접 일정을 관리합니다" text="알바생에게 링크를 공유하면 그 중 가능한 날짜 조율이 가능합니다." />
+        <GridItem imgWidth="1200px" colSpan="3" icon={LandingImg1} width={1144} height={505} mainText="간편하게 면접 일정을 관리합니다" text="알바생에게 링크를 공유하면 그 중 가능한 날짜 조율이 가능합니다." />
         <GridItem imgWidth="1200px" colSpan="3" icon={LandingImg2} width={400} height={205} mainText="휴대폰이나 데스트탑으로 근로계약서를 관리합니다" text="근로계약서 파일의 관리가 간편합니다." />
         
         <GridItem imgWidth="500px" colSpan="3" width={300} height={205} mainText="면접을 비대면으로 간편하게" text="개인 화상 대화로 면접이 가능합니다." >
